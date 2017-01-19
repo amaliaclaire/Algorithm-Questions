@@ -1,4 +1,4 @@
-``write a function called ordinalUpTo() that returns a string with ordinal values for each number from 1 up to n (an argument of this function), formatted like this "1st", "2nd", "3rd"
+write a function called ordinalUpTo() that returns a string with ordinal values for each number from 1 up to n (an argument of this function), formatted like this "1st", "2nd", "3rd"
 
 function ordinalUpTo(num){ // we are making a function called "ordinalUpTo"
   var result = ""; //it is a variable because we're going to add on later
@@ -21,4 +21,3 @@ function ordinal (x){ // this function ordinal takes ONE input (which is a numbe
 
 
 console.log(ordinalUpTo(10));
-``
