@@ -21,3 +21,26 @@ function ordinal (x){ // this function ordinal takes ONE input (which is a numbe
 
 
 console.log(ordinalUpTo(10));
+
+
+
+
+
+w/out all the comments 
+function ordinalUpTo(num){
+  var result = "";
+  
+  for(var i = 1; i < num + 1; i++){
+    if (i === num){
+      result += ordinal(i)
+    }else{
+      result += ordinal(i) + ","
+    }
+  }
+return result; 
+}
+function ordinal (x){
+  return x + "th";
+}
+
+console.log(ordinalUpTo(20));
