@@ -26,6 +26,9 @@ console.log(ordinalUpTo(10));
 
 
 
+
+
+
 w/out all the comments 
 function ordinalUpTo(num){
   var result = "";
@@ -44,3 +47,25 @@ function ordinal (x){
 }
 
 console.log(ordinalUpTo(20));
+
+
+other result w/ different name 
+
+function ordinalUpTo(num){
+  var answer = ""; 
+  
+  for(var i = 1; i < num + 1; i++){
+    if(i ===num){
+      answer += numberCharacter(i)
+    }else{
+      answer += numberCharacter(i) +",";
+    }
+  }
+  return answer; 
+}
+
+function numberCharacter(x){
+  return x + "th"
+}
+
+console.log(ordinalUpTo(10));
