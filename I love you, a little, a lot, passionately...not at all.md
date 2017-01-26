@@ -13,6 +13,7 @@ Your goal in this kata is to determine which phrase the girls would say for a fl
 
 
 
+```
 function howMuchILoveYou(nbPetals){
   if(nbPetals%6 == 1){
     return ("I love you");
@@ -30,3 +31,5 @@ function howMuchILoveYou(nbPetals){
 }
 
 howMuchILoveYou(0);
+```
+
