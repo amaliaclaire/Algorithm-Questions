@@ -33,3 +33,28 @@ function howMuchILoveYou(nbPetals){
 howMuchILoveYou(0);
 ```
 
+new version 
+
+``` 
+function lovePetal(nb_petals){
+  
+  for(var i = 1; i <= nb_petals; i++){
+    
+  if(i%5 ===0){
+    console.log('not at all');
+  }else if(i%4 ===0){
+    console.log('madly');
+  }else if(i%3 ===0){
+    console.log('passionately');
+  }else if(i%2 ===0){
+    console.log('a lot');
+    
+  }else{
+    console.log('I love you a little');
+  }
+  
+}
+}
+
+lovePetal(100);
+```
