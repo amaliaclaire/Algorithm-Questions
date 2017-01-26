@@ -21,5 +21,7 @@ function catDog(number){
   
 }
 
-catDog(100); ```
+catDog(100);
+
+```
 
