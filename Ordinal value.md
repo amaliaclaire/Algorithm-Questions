@@ -55,6 +55,7 @@ console.log(ordinalUpTo(20));
 
 other result w/ different name 
 
+```
 function ordinalUpTo(num){
   var answer = ""; 
   
@@ -73,3 +74,4 @@ function numberCharacter(x){
 }
 
 console.log(ordinalUpTo(10));
+```
