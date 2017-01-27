@@ -1,5 +1,6 @@
 //write a function called ordinalUpTo() that returns a string with ordinal values for each number from 1 up to n (an argument of this function), formatted like this "1st", "2nd", "3rd"
 
+```
 function ordinalUpTo(num){ // we are making a function called "ordinalUpTo"
   var result = ""; //it is a variable because we're going to add on later
   for(var i = 1; i < num + 1; i++){ // i = 1; and the for loop runs while i is less than the num. The for loop will stop when i is = to num, so when it turns false, the loop will stop. 
@@ -22,6 +23,7 @@ function ordinal (x){ // this function ordinal takes ONE input (which is a numbe
 
 console.log(ordinalUpTo(10));
 
+```
 
 
 
@@ -30,6 +32,7 @@ console.log(ordinalUpTo(10));
 
 
 w/out all the comments 
+```
 function ordinalUpTo(num){
   var result = "";
   
@@ -47,6 +50,7 @@ function ordinal (x){
 }
 
 console.log(ordinalUpTo(20));
+```
 
 
 other result w/ different name 
