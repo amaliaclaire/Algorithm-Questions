@@ -32,3 +32,28 @@ console.log(curLongWord);
 
 longestWord(sentence);
 ```
+
+```
+var sentence = "JavaScript For Kids A Playful Introduction To Programming";
+
+function findLongWord(inputSentence){
+  var wordArr = inputSentence.split(" ");
+  var longLength = 0; 
+  var longestWord = ""; 
+
+for(var i = 0; i < wordArr.length; i++){
+ 
+  if(longLength < wordArr[i].length){
+    longlength = wordArr[i].length;
+    longestWord = wordArr[i]; 
+    
+  }
+}
+  
+  console.log(longlength);
+  console.log(longestWord);
+  
+}
+
+findLongWord(sentence); 
+```
