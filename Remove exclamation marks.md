@@ -9,3 +9,13 @@ function removeExclamationMarks(s){
 
 removeExclamationMarks('value');
 ```
+
+
+```
+function removeExclamationMarks(string){
+  return string.split('!').join(''); 
+}
+
+removeExclamationMarks('HELLO!!!')
+
+```
