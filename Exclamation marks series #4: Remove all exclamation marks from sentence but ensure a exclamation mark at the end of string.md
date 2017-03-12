@@ -10,3 +10,12 @@ function remove(s){
   
 }
 ```
+
+```
+function remove(s){
+  //coding and coding....
+  s = s.split('!');
+  return s.concat('!').join('');
+  
+}
+```
