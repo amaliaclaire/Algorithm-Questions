@@ -1,0 +1,14 @@
+```
+
+let heightFind =(tree, depth=0)=>{
+  if(tree===undefined)
+  {//end of root, return how deep we've gone
+    return depth;
+  }
+  depth++;
+  let leftDepth = heightFind(tree.left,depth);
+  let rightDepth = heightFind(tree.right, depth);
+  return leftDepth>rightDepth?leftDepth:rightDepth;
+}
+
+```
