@@ -1,0 +1,14 @@
+#find the unique element and if it doesn't have a pair then return that single element. 
+
+```
+function unique(array) {
+  for(let i = 0; i < array.length; i += 2){
+    if(array[i] !== array[i + i]) {
+      return array[i+i]
+    }
+  }
+}
+
+unique([0, 0, 1, 1, 2, 3, 3])
+
+```
